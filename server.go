@@ -67,6 +67,10 @@ func main() {
 		}
 	}()
 
+	// Erfolgreichen Start in der Console anzeigen
+	println("challenge-go Server is running.")
+	println("API Endpoint: http://127.0.0.1:" + configuration.Port + "/weather")
+
 	// Wetterdaten von openweathermap.org einmal pro Stunde abfragen und in DB speichern
 	t := time.NewTicker(time.Hour)
 	for {
