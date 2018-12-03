@@ -1,0 +1,7 @@
+{
+    "APIKey": "ENTER YOUR API KEY HERE",
+    "Cities": ["Berlin", "München", "Frankfurt", "Hannover"],
+    "ErrorLogFile": "logs/error.log",
+    "AccessLogFile": "logs/access.log",
+    "Port": "3000"
+}
