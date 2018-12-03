@@ -27,11 +27,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Build
 
-Clone this repository, change directory and run the application.
+Clone this repository, change directory, create default folder and run the application.
 
 ```
-git clone https://slkfasdlj
-cd skladfjsjdl
+git clone https://github.com/christianfuerst/challenge-go
+cd challenge-go
+md logs
+md db
 go run server.go db.go api.go helper.go
 ```
 
